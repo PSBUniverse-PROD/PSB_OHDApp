@@ -59,7 +59,9 @@ create table public.ohd_s_statuses (
   description text null,
   constraint ohd_s_statuses_pkey primary key (status_id),
   constraint ohd_s_statuses_name_key unique (name)
-) TABLESPACE pg_default;
+) TABLESPACE pg_default;   
+
+-- do not mind this line. this is a test for revert
 
 
 create table public.ohd_s_openers (
